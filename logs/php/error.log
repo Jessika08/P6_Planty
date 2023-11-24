@@ -1,0 +1,27 @@
+[18-Nov-2023 11:02:52 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php:1259
+Stack trace:
+#0 C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(175): FrmAddonsController::conditional_action_button('views', 'views-info')
+#1 C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\views\welcome\show.php(90): FrmWelcomeController::maybe_show_conditional_action_button('views', 'views-info')
+#2 C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(102): include('C:\\Users\\segur\\...')
+#3 C:\Users\segur\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): FrmWelcomeController::screen_content('')
+#4 C:\Users\segur\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\Users\segur\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\segur\Local Sites\planty\app\public\wp-admin\admin.php(259): do_action('formidable_page...')
+#7 {main}
+  thrown in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php on line 1259
+[18-Nov-2023 11:03:09 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php:1259
+Stack trace:
+#0 C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(175): FrmAddonsController::conditional_action_button('views', 'views-info')
+#1 C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\views\welcome\show.php(90): FrmWelcomeController::maybe_show_conditional_action_button('views', 'views-info')
+#2 C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmWelcomeController.php(102): include('C:\\Users\\segur\\...')
+#3 C:\Users\segur\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): FrmWelcomeController::screen_content('')
+#4 C:\Users\segur\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 C:\Users\segur\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\segur\Local Sites\planty\app\public\wp-admin\admin.php(259): do_action('formidable_page...')
+#7 {main}
+  thrown in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\formidable\classes\controllers\FrmAddonsController.php on line 1259
+[24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 958
+[24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 960
+[24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
+[24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
+[24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
