@@ -22,3 +22,9 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+
+//Créer le hook admi dans ce fichier 
+//Utiliser le hook wp_nav_menu_items pour ajouter le lien dans le menu.
+//La fonction is_user_logged_in pour verifier si l'utilisateur est connecter ou non
+

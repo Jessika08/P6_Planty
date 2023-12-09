@@ -11,3 +11,69 @@ Updated: 2023-11-24 12:11:43
 
 */
 
+.header--row-inner {
+    height: 67px;
+}
+
+#menu-item-40 {
+    background-color: #DC9F96;
+    padding: 20px 30px;
+}
+
+#menu-item-40 a {
+    color: #ffff;
+}
+
+#menu-item-41 {
+    padding: 20px ;
+
+}
+
+.colonne1 {
+    height: 650px;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    background-color: #ECE2DA;
+    border-bottom:#E3D9D0 solid 10px;
+    padding-top:30px;
+    
+}
+
+.green-title {
+    padding-top: 30px;
+    color:#3B8E46;
+}
+
+.text {
+    color: black;
+}
+
+.colonne3 {
+    background-color: #ECE2DA;
+    height: 850px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.pink-title {
+    color:#D2776A;
+    margin-top: 25px;
+}
+
+
+.wp-element-button {
+    width: 200px;
+    font-weight: 400;
+}
+
+footer {
+    height: 50px;
+}
+
+
+/*STYLE PAGE NOUS CONTACTER*/
+
+.contact-column-1 {
+    background-color: #ECE2DA;
+    height:250px;
+}
