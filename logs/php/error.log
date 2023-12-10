@@ -25,3 +25,8 @@ Stack trace:
 [24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 967
 [24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 968
 [24-Nov-2023 12:11:43 UTC] PHP Warning:  Undefined variable $qsid in C:\Users\segur\Local Sites\planty\app\public\wp-content\plugins\child-theme-configurator\includes\classes\CSS.php on line 971
+[10-Dec-2023 22:22:09 UTC] PHP Parse error:  syntax error, unexpected identifier "code" in C:\Users\segur\Local Sites\planty\app\public\wp-content\themes\neve-child\functions.php on line 31
+[10-Dec-2023 22:22:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\segur\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Dec-2023 22:22:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\segur\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Dec-2023 22:22:13 UTC] PHP Parse error:  syntax error, unexpected identifier "code" in C:\Users\segur\Local Sites\planty\app\public\wp-content\themes\neve-child\functions.php on line 31
+[10-Dec-2023 22:22:14 UTC] PHP Parse error:  syntax error, unexpected identifier "code" in C:\Users\segur\Local Sites\planty\app\public\wp-content\themes\neve-child\functions.php on line 31

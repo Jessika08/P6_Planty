@@ -11,6 +11,20 @@ Updated: 2023-11-24 12:11:43
 
 */
 
+/*Lien admin*/
+
+.admin-link{
+    padding:20px;
+}
+
+.admin-link:hover {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+/*GENERAL*/
 .header--row-inner {
     height: 67px;
 }
@@ -20,6 +34,11 @@ Updated: 2023-11-24 12:11:43
     padding: 20px 30px;
 }
 
+#menu-item-40:hover {
+  background-color: #C02E44;
+  cursor: pointer;
+}
+
 #menu-item-40 a {
     color: #ffff;
 }
@@ -27,6 +46,17 @@ Updated: 2023-11-24 12:11:43
 #menu-item-41 {
     padding: 20px ;
 
+}
+
+#menu-item-41 a{
+    color: black;
+}
+
+#menu-item-41:hover{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+    
 }
 
 .colonne1 {
@@ -50,24 +80,54 @@ Updated: 2023-11-24 12:11:43
 
 .colonne3 {
     background-color: #ECE2DA;
-    height: 850px;
+    height: 875px;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
 
 .pink-title {
     color:#D2776A;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 
+
+.taste-title{
+    font-weight: 800;
+    font-size: 48px!important;
+
+}
 .wp-element-button {
     width: 200px;
     font-weight: 400;
 }
 
+.wp-element-button:hover {
+    cursor: pointer;
+    background-color: #C02E44 !important;
+    color: white;
+}
+
+.colonne4{
+    justify-content: center;
+}
+
+.taste-column{
+    justify-content: center;
+    margin-bottom: unset;
+}
+
+.last-column{
+    margin-bottom: unset;
+}
+
+
 footer {
     height: 50px;
+}
+
+footer .admin-link{
+    display: none;
 }
 
 
@@ -75,5 +135,15 @@ footer {
 
 .contact-column-1 {
     background-color: #ECE2DA;
-    height:250px;
+    height:350px;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+
+.team {
+    justify-content: center;
+}
+
+.contact-title-intro{
+    margin-top: 50px;
 }

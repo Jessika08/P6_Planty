@@ -28,3 +28,20 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 //Utiliser le hook wp_nav_menu_items pour ajouter le lien dans le menu.
 //La fonction is_user_logged_in pour verifier si l'utilisateur est connecter ou non
 
+// Fonction pour modifier les éléments du menu
+function ajouter_lien_admin_menu( $items, $args ) {
+    // Vérifier si l'utilisateur est connecté
+    if ( is_user_logged_in() ) {
+        // Construire le lien "Admin"
+        $lien_admin = '<li class="admin-link"><a href="' . admin_url() . '">Admin</a></li>';
+
+        // Ajouter le lien "Admin" après le premier élément du menu
+        $items = substr_replace( $items, $lien_admin, strpos( $items, '</li>', 1 ) + 5, 0 );
+    }
+
+    // Retourner les éléments du menu, modifiés ou non
+    return $items;
+}
+
+// Ajouter le hook pour la modification du menu
+add_filter( 'wp_nav_menu_items', 'ajouter_lien_admin_menu', 10, 2 );
