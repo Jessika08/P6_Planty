@@ -11,7 +11,7 @@ Updated: 2023-11-24 12:11:43
 
 */
 
-/*Lien admin*/
+/*******************Lien admin*****************/
 
 .admin-link{
     padding:20px;
@@ -23,8 +23,8 @@ Updated: 2023-11-24 12:11:43
     font-size: 13px;
 }
 
+/***********************GENERAL*********************/
 
-/*GENERAL*/
 .header--row-inner {
     height: 67px;
 }
@@ -90,13 +90,12 @@ Updated: 2023-11-24 12:11:43
     margin-top: 35px;
 }
 
-
-
 .taste-title{
     font-weight: 800;
     font-size: 48px!important;
-
+    margin-bottom: unset;
 }
+
 .wp-element-button {
     width: 200px;
     font-weight: 400;
@@ -112,6 +111,21 @@ Updated: 2023-11-24 12:11:43
     justify-content: center;
 }
 
+.green-title-reviews{
+    color: #3B8E46;
+    margin-bottom: unset;
+}
+
+.reviews-title{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.green-title-reviews p{
+    margin-bottom: unset;
+}
+
+
 .taste-column{
     justify-content: center;
     margin-bottom: unset;
@@ -120,8 +134,7 @@ Updated: 2023-11-24 12:11:43
 .last-column{
     margin-bottom: unset;
 }
-
-
+/******************************FOOTER*********************************/
 footer {
     height: 50px;
 }
@@ -130,8 +143,18 @@ footer .admin-link{
     display: none;
 }
 
+/**********************STYLE PAGE NOUS CONTACTER***********************/
 
-/*STYLE PAGE NOUS CONTACTER*/
+.meet-us{
+    margin-top: 100px;
+}
+
+.plant-contact{
+    position: absolute;
+    width: 145px;
+    margin-left: -460px;
+    left: 50%;
+}
 
 .contact-column-1 {
     background-color: #ECE2DA;
@@ -140,10 +163,232 @@ footer .admin-link{
     border-bottom-right-radius: 35%;
 }
 
+.the-big-team-column{
+    margin-bottom: unset;
+}
+
 .team {
     justify-content: center;
+    margin-left: 255px;
+    margin-bottom: unset;
+}
+
+.page-id-30 h4 {
+    margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 .contact-title-intro{
     margin-top: 50px;
+}
+
+
+.plant-team figure{
+    margin-bottom: unset !important;
+}
+
+.plant-team{
+    margin-top: 105px;
+}
+
+.contact-form-column{
+    background-color: #ECE2DA;
+}
+
+.wp-container-core-columns-layout-5 , .wp-container-core-columns-layout-4 {
+    margin-bottom: unset !important;
+}
+
+.form-title{
+    padding-top: 40px;
+}
+
+.frm_submit{
+    display: flex;
+    justify-content: center;
+}
+
+.frm_button_submit{
+    width: 200px !important;
+    height: 55px !important;
+    background-color: #E0B9B4 !important;
+    border-color: #E0B9B4 !important;
+}
+
+.frm_button_submit:hover {  
+    background-color: #C02E44!important;
+    border-color: #C02E44 !important;
+    color: white!important;
+
+}
+
+.page-id-30 input {
+    width: 380px!important;
+    height: 55px;
+}
+
+.page-id-30 label{
+    font-size: 20px!important;
+    color: black !important;
+}
+
+#frm_form_3_container{
+    display: flex;  
+    justify-content: center;
+}
+.cans-pic-form{
+    margin-top: 50px;
+}
+/**********************STYLE PAGE COMMANDER***********************/
+ 
+.page-id-32 .green-background{
+    background-color: #3B8E46 ;
+    padding: 0px 15px 50px 15px;
+}
+
+.width860{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.page-id-32 h2 {
+    color: white;
+    margin-top:50px;
+    margin-bottom: 45px;
+}
+
+p.taste-title-purchase {
+    font-weight: 800;
+    margin-bottom: unset;
+    font-size: 20px;
+}
+
+.your-order-taste{
+    margin-bottom:unset;
+}
+
+.your-order-taste-imgs{
+    margin-bottom: 10px;
+}
+
+.wp-block-separator {
+    margin-left: -430px;
+    position: relative;
+    color: #ffff;
+    width: 860px;
+    left: 50%;
+}
+
+.page-id-32 h3 {
+    font-size: 30px!important;
+    font-weight: 700 !important;
+    color: #ffff;
+
+}
+
+input{
+    font-size: 16px;
+}
+
+#field_vs3ry  , #field_lkjaz , 
+#field_26ffw , #field_9aktk{
+    width: 39px !important;
+    height: 56px!important;
+    border-radius: unset!important;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 16px;
+    text-align: center;
+}
+
+#frm_field_17_container  , #frm_field_20_container , 
+#frm_field_22_container  , #frm_field_19_container {
+    display: flex;
+    justify-content: space-around;
+    /*width: 50px;*/
+}
+
+#frm_field_17_container label , #frm_field_20_container label, 
+#frm_field_22_container label , #frm_field_19_container label {
+    display: none !important;
+}
+
+#frm_form_3_container {
+    position: relative;
+    background-image: url(http://planty.local/wp-content/uploads/2023/11/Group-16.png);
+    background-repeat: no-repeat;
+    background-position: 385px 280px;
+}
+
+ /*retirer les flèches de quantité*/
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+ 
+/* Chrome */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+	margin:0;
+}
+ 
+/* Opéra*/
+input::-o-inner-spin-button,
+input::-o-outer-spin-button { 
+	-o-appearance: none;
+	margin:0
+}
+
+
+#frm_field_43_container {
+    position: relative;
+    left: 40px 
+}
+#frm_field_14_container , #frm_field_23_container , #frm_field_25_container , 
+#frm_field_26_container , #frm_field_27_container , #frm_field_28_container  {
+    height: 110px;
+} 
+
+#frm_field_26_container , #frm_field_27_container , #frm_field_28_container {
+    position: relative;
+    left: 42px;
+}
+
+#field_n6jdx , #field_18zgw , #field_xlxhq , #field_488ug , #field_7psh2 , #field_thbyg {
+    height: 70px;
+    width: 380px;
+}
+
+#frm_field_18_container hr {
+    color: white;
+    width: 860px;
+}
+
+/*.frm_combo_inputs_container, .frm_grid_container, 
+.frm_form_fields .frm_section_heading,
+.frm_form_fields .frm_fields_container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: max-content;
+    grid-gap: 0 80px
+}*/
+
+.page-id-32 .frm_fields_container label {
+    color: white!important;
+    font-size: 20px!important;
+    border-color: transparent!important;
+    box-shadow: 2px #000;
+    
+}
+
+#frm_field_44_container {
+        position: absolute;
+    height: 447px;
+    background-repeat: no-repeat;
+    background-image: url(http://planty.local/wp-content/uploads/2023/12/Line-6.png);
+    background-position: center;
+    left: 50%;
+    top: 620px;
+    width: 1px;
 }
