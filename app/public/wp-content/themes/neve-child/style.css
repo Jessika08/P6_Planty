@@ -241,7 +241,7 @@ footer .admin-link{
 }
 /**********************STYLE PAGE COMMANDER***********************/
  
-.page-id-32 .green-background{
+/*.page-id-32 .green-background{
     background-color: #3B8E46 ;
     padding: 0px 15px 50px 15px;
 }
@@ -305,7 +305,7 @@ input{
 #frm_field_22_container  , #frm_field_19_container {
     display: flex;
     justify-content: space-around;
-    /*width: 50px;*/
+    /*width: 50px;
 }
 
 #frm_field_17_container label , #frm_field_20_container label, 
@@ -318,10 +318,11 @@ input{
     background-image: url(http://planty.local/wp-content/uploads/2023/11/Group-16.png);
     background-repeat: no-repeat;
     background-position: 385px 280px;
-}
+}*/
 
  /*retirer les flèches de quantité*/
 /* Firefox */
+
 input[type=number] {
     -moz-appearance: textfield;
 }
@@ -340,8 +341,7 @@ input::-o-outer-spin-button {
 	margin:0
 }
 
-
-#frm_field_43_container {
+/*#frm_field_43_container {
     position: relative;
     left: 40px 
 }
@@ -365,15 +365,6 @@ input::-o-outer-spin-button {
     width: 860px;
 }
 
-/*.frm_combo_inputs_container, .frm_grid_container, 
-.frm_form_fields .frm_section_heading,
-.frm_form_fields .frm_fields_container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: max-content;
-    grid-gap: 0 80px
-}*/
-
 .page-id-32 .frm_fields_container label {
     color: white!important;
     font-size: 20px!important;
@@ -392,3 +383,174 @@ input::-o-outer-spin-button {
     top: 620px;
     width: 1px;
 }
+*/
+
+/******************STYLE PAGE MA COMMANDE*******************/
+
+.page-id-277 main{
+    background-color: #3B8E46;
+}
+
+.purchase-title {
+    color: #ffff;
+    margin-top: 50px;
+}
+
+.your-purchase-title{
+    color: white;
+    justify-content: center;
+}
+
+.colonne-hr {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.colonne-hr hr {
+    max-width: 860px;
+    width: 860px;
+    border-top: 1px solid;
+}
+
+.taste-img{
+    justify-content: center;
+}
+
+.taste-img p {
+    margin-bottom: unset;
+}
+
+.quantity {
+    margin-top: 20px;
+     margin-left: 60px;
+     margin-right: 60px;
+}
+
+.quantity p {           
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity p input {
+    width: 39px;
+    height: 56px;
+    border-radius: unset;
+    text-align: center;
+    border-color: transparent;
+}
+
+.big-column-form {
+    display: flex;
+    justify-content: center;
+}
+
+.pre-order-form .infos-delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre-order-form {
+background-repeat: no-repeat;
+background-image: url(http://planty.local/wp-content/uploads/2023/12/Line-6.png);
+background-position: 50% 60%;
+}
+
+.infos p input, .delivery p input {
+    height: 60px;
+    border-color: transparent;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+
+.infos-delivery{
+    margin-top: 35px;
+}
+
+.infos-delivery h3 {
+    color: #ffff;
+    margin-bottom: 25px;
+}
+
+.infos-delivery label {
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+.purchase-button-container{
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+
+.purchase-button-container p{
+    display: flex;
+    justify-content: center;
+}
+
+.purchase-button-container span {
+    display: none;
+}
+
+.purchase-button-container p #purchase-button {
+    background-color: #E0B9B4;
+    width: 198px;
+}
+
+/******************RESPONSIVE VERSION TABLETTE (1025)*******************/
+
+@media screen and (max-width: 992px){
+
+
+    /****PAGE COMMANDER****/
+.your-order-taste .wp-block-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    flex-basis: 100%!important;
+}
+
+.your-order-taste-imgs{
+    justify-content: center;
+}
+
+.your-order-taste-imgs .wp-block-column {
+    max-width: 250px;
+    margin-bottom: 50px;
+}   
+
+.wp-block-cover{
+    width: 250px;
+}
+
+#frm_field_17_container{
+    position: relative;
+    top: -265px;
+    left: 130px;
+}
+
+#frm_field_44_container{
+    display: none;
+}
+
+
+.site-footer .item--inner.has_menu {
+    justify-content: center;
+}
+
+
+
+}
+
+@media (max-width: 781px){
+    .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+        flex-basis: 100%!important;
+    }
+}
+
+
+/******************RESPONSIVE VERSION mobile (700)*******************/
