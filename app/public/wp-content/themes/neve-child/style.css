@@ -29,17 +29,25 @@ Updated: 2023-11-24 12:11:43
     height: 67px;
 }
 
-#menu-item-40 {
+.builder-item {
+    padding: unset;
+}
+
+.col{
+    padding: unset;
+}
+
+#menu-item-288{
     background-color: #DC9F96;
     padding: 20px 30px;
 }
 
-#menu-item-40:hover {
+#menu-item-288:hover {
   background-color: #C02E44;
   cursor: pointer;
 }
 
-#menu-item-40 a {
+#menu-item-288 a {
     color: #ffff;
 }
 
@@ -239,88 +247,9 @@ footer .admin-link{
 .cans-pic-form{
     margin-top: 50px;
 }
-/**********************STYLE PAGE COMMANDER***********************/
- 
-/*.page-id-32 .green-background{
-    background-color: #3B8E46 ;
-    padding: 0px 15px 50px 15px;
-}
 
-.width860{
-    max-width: 860px;
-    margin: 0 auto;
-}
 
-.page-id-32 h2 {
-    color: white;
-    margin-top:50px;
-    margin-bottom: 45px;
-}
-
-p.taste-title-purchase {
-    font-weight: 800;
-    margin-bottom: unset;
-    font-size: 20px;
-}
-
-.your-order-taste{
-    margin-bottom:unset;
-}
-
-.your-order-taste-imgs{
-    margin-bottom: 10px;
-}
-
-.wp-block-separator {
-    margin-left: -430px;
-    position: relative;
-    color: #ffff;
-    width: 860px;
-    left: 50%;
-}
-
-.page-id-32 h3 {
-    font-size: 30px!important;
-    font-weight: 700 !important;
-    color: #ffff;
-
-}
-
-input{
-    font-size: 16px;
-}
-
-#field_vs3ry  , #field_lkjaz , 
-#field_26ffw , #field_9aktk{
-    width: 39px !important;
-    height: 56px!important;
-    border-radius: unset!important;
-    font-weight: 600;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-size: 16px;
-    text-align: center;
-}
-
-#frm_field_17_container  , #frm_field_20_container , 
-#frm_field_22_container  , #frm_field_19_container {
-    display: flex;
-    justify-content: space-around;
-    /*width: 50px;
-}
-
-#frm_field_17_container label , #frm_field_20_container label, 
-#frm_field_22_container label , #frm_field_19_container label {
-    display: none !important;
-}
-
-#frm_form_3_container {
-    position: relative;
-    background-image: url(http://planty.local/wp-content/uploads/2023/11/Group-16.png);
-    background-repeat: no-repeat;
-    background-position: 385px 280px;
-}*/
-
- /*retirer les flèches de quantité*/
+ /********************retirer les flèches de quantité********************/
 /* Firefox */
 
 input[type=number] {
@@ -341,51 +270,7 @@ input::-o-outer-spin-button {
 	margin:0
 }
 
-/*#frm_field_43_container {
-    position: relative;
-    left: 40px 
-}
-#frm_field_14_container , #frm_field_23_container , #frm_field_25_container , 
-#frm_field_26_container , #frm_field_27_container , #frm_field_28_container  {
-    height: 110px;
-} 
-
-#frm_field_26_container , #frm_field_27_container , #frm_field_28_container {
-    position: relative;
-    left: 42px;
-}
-
-#field_n6jdx , #field_18zgw , #field_xlxhq , #field_488ug , #field_7psh2 , #field_thbyg {
-    height: 70px;
-    width: 380px;
-}
-
-#frm_field_18_container hr {
-    color: white;
-    width: 860px;
-}
-
-.page-id-32 .frm_fields_container label {
-    color: white!important;
-    font-size: 20px!important;
-    border-color: transparent!important;
-    box-shadow: 2px #000;
-    
-}
-
-#frm_field_44_container {
-        position: absolute;
-    height: 447px;
-    background-repeat: no-repeat;
-    background-image: url(http://planty.local/wp-content/uploads/2023/12/Line-6.png);
-    background-position: center;
-    left: 50%;
-    top: 620px;
-    width: 1px;
-}
-*/
-
-/******************STYLE PAGE MA COMMANDE*******************/
+/******************STYLE PAGE COMMANDER (CONTACT FORM 7 VERSION)*******************/
 
 .page-id-277 main{
     background-color: #3B8E46;
@@ -498,59 +383,231 @@ background-position: 50% 60%;
     width: 198px;
 }
 
-/******************RESPONSIVE VERSION TABLETTE (1025)*******************/
+/******************RESPONSIVE VERSION TABLETTE*******************/
 
 @media screen and (max-width: 992px){
+/***GENERAL***/
 
-
-    /****PAGE COMMANDER****/
-.your-order-taste .wp-block-column{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
-    flex-basis: 100%!important;
-}
-
-.your-order-taste-imgs{
-    justify-content: center;
-}
-
-.your-order-taste-imgs .wp-block-column {
-    max-width: 250px;
-    margin-bottom: 50px;
-}   
-
-.wp-block-cover{
-    width: 250px;
-}
-
-#frm_field_17_container{
-    position: relative;
-    top: -265px;
-    left: 130px;
-}
-
-#frm_field_44_container{
-    display: none;
-}
-
-
-.site-footer .item--inner.has_menu {
-    justify-content: center;
-}
-
-
-
-}
-
-@media (max-width: 781px){
-    .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
-        flex-basis: 100%!important;
+    .navbar-toggle{
+        color: #3B8E46;
+        border: unset;
     }
+
+    
+
+/***PAGE ACCUEIL***/ 
+
+    .taste.column {
+        padding: 0px 20px 0px 20px;
+    }
+
+
+    .banner-column-taste {
+        flex-basis: 270px!important;
+        max-width: 270px;
+    }
+
+    .taste-banner h5{
+        font-size: 28px!important;
+    }
+
+    .taste-banner{
+        max-width: 270px!important;
+    }
+
+    .colonne3 {
+        height:auto;
+        padding-bottom: 25px;
+    }
+
+    .all-members{
+        display: flex;
+        justify-content: center;
+    }
+
+    .member-column{
+        max-width: 280px;
+        min-width: 200px;
+    }
+
+/***PAGE CONTACT***/
+
+    .contact-column-1{
+        border-radius: 0%;
+    }
+
+
+    .team {
+        margin-left:unset;
+        display: flex;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .team-member {
+        max-width: 175px;
+        min-width: 100px;
+    }
+
+    .team-member img{
+        max-width: 250px;
+    }
+
+    .plant-team-column {
+        display: none;
+    }
+
+/***PAGE COMMANDER***/
+
+    .your-purchase-title{
+        text-align: center;
+    }
+
+    .colonne-hr hr {
+        max-width: 650px;
+    }
+    .each-taste-column {
+        max-width: 140px;
+        flex-basis: 140px;
+    }
+
+    .each-taste-column .purchase-taste-banner p {
+        font-size: 13px!important;
+    }
+
+    .for-quantity {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quantity{
+        width: 555px;
+    }
+
+    .pre-order-form .infos-delivery{
+        justify-content: space-around;
+    }
+
+    .infos-delivery input{
+        max-width: 250px;
+       
+    }
+
+
+
 }
+/******************RESPONSIVE VERSION MOBILE*******************/
+
+@media screen and (max-width: 700px){
 
 
-/******************RESPONSIVE VERSION mobile (700)*******************/
+/***PAGE ACCUEIL***/
+
+    h2{
+        font-size: 21px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .colonne1, .colonne2{
+        height: auto;
+        padding: 0px 25px 0px 25px;
+       
+    }
+
+    .feedback{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .member-column img {
+        max-width: 150px;
+    }
+
+    .colonne3{
+        border-radius: 0%;
+    }
+
+    .reviews-title {
+        margin-top: unset;
+    }
+
+/***PAGE CONTACT***/
+
+    .contact-column-1{
+        height: auto;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .meet-us{
+        margin-top: 50px;
+    }
+
+    #frm_form_3_container input{
+        max-width: 240px;
+    }
+
+    .team-member{
+        max-width: 150px;
+    }
+    .team-member img{
+        max-width: 120px;
+    }
+
+    
+/***PAGE COMMANDER***/
+
+    .pre-order-form {
+        background-image: unset;
+    }
+
+
+    .taste-img{
+        max-width: 230px;
+    }
+
+
+    .quantity p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -590px;
+        height: 535px;
+        margin-left: 245px;
+    }
+
+    .infos-delivery{
+        flex-direction: column;
+      
+    }
+
+    .infos-delivery h3{
+        font-size: 20px;
+    }
+
+    .infos p, .delivery p {
+        
+        max-width: 250px;
+    }
+
+    .infos, .delivery  {
+        align-items: center;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column;
+    }
+
+    .purchase-taste-banner {
+        min-height: 70px;
+        width: 200px;
+        max-height: 70px;
+    }
+
+    
+
+}
